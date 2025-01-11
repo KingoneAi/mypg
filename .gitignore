@@ -1,0 +1,70 @@
+# Ignore Docker-specific files
+# **/Dockerfile
+# **/docker-compose.yml
+**/docker-compose.*.yml
+**/.dockerignore
+
+# Ignore Docker volumes and local data
+**/data/
+**/volumes/
+
+# Ignore Docker build artifacts
+**/build/
+**/dist/
+**/target/
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.bak
+*.bak*
+# Ignore log files and databases
+*.log
+*.sqlite
+*.db
+
+# Ignore dependency directories
+node_modules/
+vendor/
+venv/
+__pycache__/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled files
+*.class
+*.exe
+*.dll
+*.so
+*.o
+*.a
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.pid
+*.lock
+
+# Ignore coverage reports
+coverage/
+*.lcov
+
+# Ignore test artifacts
+test-results/
+*.test
+*.spec
+
+# Ignore generated files
+*.min.js
+*.min.css
+*.map
+*.gz
