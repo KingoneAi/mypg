@@ -31,7 +31,7 @@
 ```md readme.md (续)
 2. **运行容器**：
    ```bash
-   docker run -d --name mypg -p 5432:5432 mypg:16 -e POSTGRES_PASSWORD=mypassword
+   docker run -d --name mypg -e POSTGRES_PASSWORD=mypassword -p 5432:5432 mypg:16   
    ```
    这将启动一个 PostgreSQL 容器，并将主机的 5432 端口映射到容器的 5432 端口。
 
